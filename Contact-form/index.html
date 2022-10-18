@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Form</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>Send us a Message</header>
+      <form>
+        <div class="dbl-field">
+          <div class="field">
+            <input type="text" name="name" placeholder="Enter Your Name" />
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="field">
+            <input type="mail" name="email" placeholder="Enter Your email" />
+            <i class="fas fa-envelope"></i>
+          </div>
+        </div>
+        <div class="dbl-field">
+          <div class="field">
+            <input type="text" name="phone" placeholder="Enter Your phone" />
+            <i class="fas fa-phone-alt"></i>
+          </div>
+          <div class="field">
+            <input
+              type="text"
+              name="website"
+              placeholder="Enter Your website"
+            />
+            <i class="fas fa-globe"></i>
+          </div>
+        </div>
+        <div class="message">
+          <textarea placeholder="Write your message" name="message"></textarea>
+          <i class="fas fa-message"></i>
+        </div>
+        <div class="button-area">
+          <button type="submit">Send message</button>
+          <span>Sending your message...</span>
+        </div>
+      </form>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
